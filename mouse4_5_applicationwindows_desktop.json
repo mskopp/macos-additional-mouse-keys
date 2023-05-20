@@ -1,0 +1,37 @@
+{
+  "title": "Mouse 4,5 -> Apps,Desktop",
+  "rules": [
+    {
+      "description": "Mission Control: Application Windows on Mouse 4/Left",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "pointing_button": "button4"
+          },
+          "to": [
+            {
+              "shell_command": "/'System/Applications/Mission Control.app/Contents/MacOS/Mission Control' 2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Mission Control: Show Desktop on Mouse 5/Right",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "pointing_button": "button5"
+          },
+          "to": [
+            {
+              "shell_command": "/'System/Applications/Mission Control.app/Contents/MacOS/Mission Control' 1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
