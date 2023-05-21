@@ -1,9 +1,16 @@
 # macos-additional-mouse-keys
 How to enable your additional mouse button-4 and button-5 on macos
 
-Probably you have a similar problem like me: I use a Microsoft IntelliMouse which comes with 5 buttons. Very old but very reliable hardware. Nevertheless, newer macOS releases such as macOS Big Sur, Monterey, Ventura don't support button-3, button-4 and button-5 in default config. Several commercial solutions are available.
+Probably you have a similar problem like me: I use a Microsoft IntelliMouse which comes with 5 buttons. Very old but very reliable hardware. 
+Nevertheless, newer macOS releases such as macOS Big Sur, Monterey or Ventura I always struggled to assign custom options to mouse button-3, button-4 and button-5 in default config. 
+Several commercial solutions are available - and finally there is vanilla macOS solution also available for my preferred assignment:
 
-Finally I found the awesome macOS app https://github.com/pqrs-org/Karabiner-Elements which allows Keyboard but also Mouse reassignment.
+System settings, Desktop & Dock, Shortcuts allows to assign the extra mouse buttons to mission control commands, as shown in this screenshot:
+
+![Screenshot showing Mission Control shortcuts](Mission_Control_extra_mouse_button_assignment_Ventura.png)
+
+If you want more complex assignment of the buttons, there is an awesome macOS app https://github.com/pqrs-org/Karabiner-Elements which allows Keyboard but also Mouse reassignment beyond any known level.
+Here is how the same settings could be achieved with Karabiner-Elements: 
 
 After following the installation documentation, I tried to add my default assignment to button-4 which is "Mission Control: Application Windows" and button-5 which is "Mission Control: Show Desktop". It turned out, it's not that easy but doable!
 
